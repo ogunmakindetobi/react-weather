@@ -8,6 +8,10 @@ Solution by [Tobi Makinde](ogunmakindetobi@outlook.com)
 
 - This app is for getting the current weather in any city accross the world.
   [Search for cities and current location]
+- Adding API to fetch the data of the weather.
+- Use the state for the hook.
+- function componenet to create the app.
+- HTML to display the app.
 
 ## User
 
@@ -62,6 +66,7 @@ Solution by [Tobi Makinde](ogunmakindetobi@outlook.com)
 - HTML
 - CSS
 - REACT.JS
+- API
 
 ## Testing
 
@@ -106,12 +111,6 @@ And to run the app:
 You can run the unit tests using:
 
 `npm test`
-
-#### Integration Tests
-
-To run Cypress in interactive mode run:
-
-`npm run cy:start`
 
 ### Error
 
