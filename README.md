@@ -50,10 +50,10 @@ Solution by [Tobi Makinde](ogunmakindetobi@outlook.com)
 
 ## Features:
 
-- Navbar
-- Contact form
-- map
-- images
+- search- bar
+- button
+- display weather
+- display data
 
 ## Technologies used.
 
