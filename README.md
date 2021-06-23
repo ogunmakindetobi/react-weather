@@ -49,3 +49,7 @@ You can run the unit tests using:
 To run Cypress in interactive mode run:
 
 `npm run cy:start`
+
+### Error
+
+- Location city suppose to be Dublin,ie not Dublin,US...The api sys.country api gives US.(due to the time range couldnt figure it out.)
