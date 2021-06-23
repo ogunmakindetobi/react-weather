@@ -61,7 +61,7 @@ function App() {
 
   function getWeather() {
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=00fbd74878cddc562b62cd6c05bc3abe`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=00fbd74878cddc562b62cd6c05bc3abe`
     )
       .then(function (response) {
         return response.json();
@@ -69,7 +69,7 @@ function App() {
 
       .then(function (data) {
         fetch(
-          `http://api.openweathermap.org/data/2.5/weather?lat=${userlocation.lat}&lon=${userlocation.lon}&units=metric&appid=00fbd74878cddc562b62cd6c05bc3abe`
+          `https://api.openweathermap.org/data/2.5/weather?lat=${userlocation.lat}&lon=${userlocation.lon}&units=metric&appid=00fbd74878cddc562b62cd6c05bc3abe`
         )
           .then(function (response) {
             return response.json();
@@ -77,7 +77,7 @@ function App() {
           .then(function (dataUser) {
             setWeather(data);
             console.log(data);
-            console.log(dataUser);
+            //console.log(dataUser);
           });
         console.log(data);
         setWeather(data);
