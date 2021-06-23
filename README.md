@@ -6,21 +6,22 @@ Solution by [Tobi Makinde](ogunmakindetobi@outlook.com)
 
 ## User stories.
 
-- This app is for getting the current weather in any city accross the world.
+- App is use for getting the current weather in any city across the world.
   [Search for cities and current location]
 - Adding API to fetch the data of the weather.
 - Use the state for the hook.
-- function componenet to create the app.
+- function component to create the app.
 - HTML to display the app.
 
 ## User
 
 - Its help users to get current weather(i.e good weather or bad weather)
-- App consist of search-bar and click button
+- App consists of a search-bar and click button
+- its friendly use.
 
 ## Wireframes
 
-- i Build this app with React.js with open source for weather api
+- I Built this app with React.js with open source of weather api
   https://openweathermap.org/api
 
 - Button from https://material-ui.com/
@@ -57,7 +58,7 @@ Solution by [Tobi Makinde](ogunmakindetobi@outlook.com)
 - search- bar
 - button
 - display weather
-- display data
+- display date
 
 ## Technologies used.
 
@@ -68,29 +69,24 @@ Solution by [Tobi Makinde](ogunmakindetobi@outlook.com)
 - REACT.JS
 - API
 
-## Testing
-
 ## Deployment 🚀
 
 --- GitHub Pages.
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Page and Netlify using the following steps...
 
 - git add.
 - git commit -m
 - git push
 
 1. Log in to GitHub and locate the GitHub Repository
-2. At the top of the Repository (not top of page), locate the "Settings".
-3. Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
-4. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-5. Under "Source", click the dropdown called "None" and select "Master Branch".
-6. The page will automatically refresh.
-7. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+2. Create a folder react-weather
+3. git init, git commit -m "initial commit", git remote add origin https://github.com/username/new_repo , git push -u origin master.
+   git push.
+4. Use netlify for final deployment.
+5. Log in to netlify add new and connect your Github.
+6. Choose the file to deploy.
 
-its will push and then go in to the github settings and went down to Source and click on Branch Master and click on Master.
-Then the site will be publish.
-
-## acknowlagement
+Then the site will be published.
 
 To install the dependencies run:
 `npm install`
@@ -114,4 +110,4 @@ You can run the unit tests using:
 
 ### Error
 
-- Location city suppose to be Dublin,ie not Dublin,US...The api sys.country api gives US.(due to the time range couldnt figure it out.)
+- Location city suppose to be Dublin,ie not Dublin,US...The api sys. country api gives US.(due to the time range couldn't figure it out.)
