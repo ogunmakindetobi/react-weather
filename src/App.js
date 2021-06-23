@@ -92,7 +92,6 @@ function App() {
             className="storm"
             type="text"
             className="search-bar"
-            placeholder="Search..."
             input
             onChange={(event) => setCity(event.target.value)}
           ></input>
