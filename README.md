@@ -10,16 +10,17 @@ WEATHER-APP: [ASSUMPTIONS_MADE_HERE]
 
 ## Proposed Solution
 
-TODO: [ADD_SOLUTION_DESCRIPTION]
+WEATHER-APP: [ADD_SOLUTION_DESCRIPTION]
 
-- break down the steps you followed
-- use bullet points to explain it in a very structured way
+- create a function and hook it with the states
+- fetch the api to get the data
+- use componets to display the weather
 
 ## Libraries / Tools Used
 
 - React.js
 - Create React App for project setup
-- ...
+- netlify
 
 ## Setup
 
